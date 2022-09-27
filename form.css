@@ -1,0 +1,22 @@
+body{
+    background-color:#181818;
+}
+#name2{
+    margin-left: 2.5%;
+}
+form{
+    padding: 40px;
+    text-align: center;
+}
+h1{
+    background-color: #eee;
+    text-align: center;
+    text-decoration: wavy;
+}
+label{
+   color: #eee;
+}
+h2{
+    text-align: center;
+    color: #eee;
+}

@@ -2,29 +2,35 @@
 <html>
 <head>
     <title>my web lessons</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
 
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@200&display=swap" rel="stylesheet"> -->
-            <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@200&display=swap" rel="stylesheet">
+           
+            <link rel="stylesheet" href="style.css">
 </head>
-<body><div id="main">
- <h1>Geeks Family</h1>   
- <p>Testing the model of milligram</p>    
- <button id="click">Click</button>
-            <ul>
-                    <li>Geremy</li>
-                    <li>John</li>
-                    <li>Toto</li>
+<body>
+        <div id="container">
+                <div id="heading">
+                            <h3 id="Name">Coders Fam-ily</h3>
+                </div> <!--heading-->
+                    <div id="main">
+                        <p>Share You Coding Skills or Your Other Skills with Coders Fam-ily</p>
+                        <form action="#" method="post">
 
-            </ul>  
-            <ol>
-                <li><a href="https://www.newyork.com">New York</a></li>
-                <li>Los Vegas</li>
-                <li>Alaska</li>
-            </ol>
-        </div>
-        </body>
+                            <label for="userName">UserName</label>
+                            <input type="text" name="userName" id="userName" />
+                            <label for="password">Password</label>
+                            <input type="password" name="password" id="password" />
+                            <button type="submit" id="submit" name="submit">LogIn</button>
+                            <button type="reset" id="reset" name="reset">Cancel</button>
+                        </form>
+                        <a href="form.html">Click here to Join</a>
+                    </div> <!--main-->
+                    <footer>Claiming for &copy;</footer>
+        </div> <!--Container-->
+</body>
+        
 </html> 
