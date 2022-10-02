@@ -1,8 +1,9 @@
 body{
     background-color: black;
+    
 }
 #container{
-   
+    /* opacity: .9; */
 }
 #heading {
     background-color: #eee;
@@ -20,5 +21,13 @@ body{
     background-color: antiquewhite;
     padding: 20px;
     width: 50%;
+    
+}
+footer{
+    display: flex;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    
 }
 
